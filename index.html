@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/spotify.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utility.css">
     <title>Spotify - Web Player: Music for everyone</title>
 </head>
@@ -13,75 +13,59 @@
     <div class="container flex bg-black">
         <div class="left">
             <div class="close">
-                <img class="invert" width="30" src="img/close.svg" alt="close">
+                <img width="30" class="invert" src="img/close.svg" alt="">
             </div>
-            <div class="home bg-gray rounded m-1 p-1">
-                <div class="logo" style="cursor: pointer;"><img width="110" class="invert" src="img/logo.svg"
-                        alt="logo"></div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img width="110" class="invert" src="img/logo.svg" alt=""></div>
                 <ul>
                     <li><img class="invert" src="img/home.svg" alt="home">Home</li>
-                    <li><img class="invert" src="img/search.svg" alt="search">search</li>
+                    <li><img class="invert" src="img/search.svg" alt="home">Search</li>
                 </ul>
             </div>
-            <div class="library bg-gray rounded m-1 p-1">
+
+            <div class="library bg-grey rounded m-1 p-1">
                 <div class="heading">
-                    <img class="invert" src="img/playlist.svg" alt="playlist">
+                    <img class="invert" src="img/playlist.svg" alt="">
                     <h2>
-                        Your library
+                        Your Library
                     </h2>
                 </div>
-                <div class="songlist">
+
+                <div class="songList">
+
                     <ul>
+
                     </ul>
                 </div>
+
                 <div class="footer">
-                    <div>
-                        <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink">
-                            <span data-encore-id="type">Legal</span>
-                        </a>
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
                     </div>
-                    <div>
-                        <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink">
-                            <span data-encore-id="type">Safety & Privacy Center</span>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink">
-                            <span data-encore-id="type">Privacy Policy</span>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink">
-                            <span data-encore-id="type">Cookies</span>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink">
-                            <span data-encore-id="type">About Ads</span>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink">
-                            <span data-encore-id="type">Accessibility</span>
-                        </a>
-                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
                 </div>
             </div>
+
+
         </div>
-        <div class="right bg-gray rounded">
+        <div class="right bg-grey rounded">
             <div class="header">
                 <div class="nav">
-                    <div class="hampburgercont">
-                        <img class="invert hamburger" src="img/hamburger.svg" alt="hamper">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
-                            color="#ffffff" fill="none">
-                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
-                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <div class="hamburgerContainer">
+
+                        <img width="40" class="invert hamburger" src="img/hamburger.svg" alt="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"
-                            color="#ffffff" fill="none">
-                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
-                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
                 </div>
@@ -90,130 +74,45 @@
                     <button class="loginbtn">Log in</button>
                 </div>
             </div>
-            <div class="spotifyplaylist">
-                <h1>Spotify Playlist</h1>
-                <div class="cardcontainer">
-                    <!-- These two cards are here as dummy and are populates by js now:  -->
-                    <!-- <div data-folder="cs" class="card">
-                        <div class="play">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="40" height="40">
-                                <circle cx="15" cy="15" r="15" fill="#1fdf64" />
-                                <path
-                                    d="M20.8906 15.846C20.5371 17.189 18.8667 18.138 15.5257 20.0361C12.296 21.8709 10.6812 22.7884 9.37983 22.4196C8.8418 22.2671 8.35159 21.9776 7.95624 21.5787C7 20.6139 7 18.7426 7 15C7 11.2574 7 9.3861 7.95624 8.42132C8.35159 8.02245 8.8418 7.73288 9.37983 7.58042C10.6812 7.21165 12.296 8.12907 15.5257 9.96393C18.8667 11.86197 20.5371 12.811 20.8906 14.154C21.0365 14.7084 21.0365 15.2916 20.8906 15.846Z"
-                                    fill="#000000" transform="translate(2, 1)" />
-                            </svg>
-                        </div>
-                        <img src="https://i.scdn.co/image/ab67706f00000002a46ea55285180036c5e8f196" alt="img">
-                        <h2>Happy Hits!</h2>
-                        <p>Hits to boost your mood and fill you with...</p>
-                    </div>
-                    <div data-folder="ncs" class="card">
-                        <div class="play">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="40" height="40">
-                                <circle cx="15" cy="15" r="15" fill="#1fdf64" />
-                                <path
-                                    d="M20.8906 15.846C20.5371 17.189 18.8667 18.138 15.5257 20.0361C12.296 21.8709 10.6812 22.7884 9.37983 22.4196C8.8418 22.2671 8.35159 21.9776 7.95624 21.5787C7 20.6139 7 18.7426 7 15C7 11.2574 7 9.3861 7.95624 8.42132C8.35159 8.02245 8.8418 7.73288 9.37983 7.58042C10.6812 7.21165 12.296 8.12907 15.5257 9.96393C18.8667 11.86197 20.5371 12.811 20.8906 14.154C21.0365 14.7084 21.0365 15.2916 20.8906 15.846Z"
-                                    fill="#000000" transform="translate(2, 1)" />
-                            </svg>
-                        </div>
-                        <img src="https://i.scdn.co/image/ab67706f00000002a46ea55285180036c5e8f196" alt="img">
-                        <h2>Happy Hits!</h2>
-                        <p>Hits to boost your mood and fill you with...</p>
-                    </div> -->
-                </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">  </div>
                 <div class="playbar">
                     <div class="seekbar">
                         <div class="circle">
+
                         </div>
                     </div>
-                    <!-- <input type="range" class="slider"> -->
                     <div class="abovebar">
-                        <div class="songinfo"></div>
+
+
+                        <div class="songinfo">
+
+                        </div>
                         <div class="songbuttons">
-                            <img width="35" id="previous" src="img/previous.svg" alt="previmg">
-                            <img width="35" id="play" src="img/play.svg" alt="playimg">
-                            <img width="35" id="next" src="img/next.svg" alt="nxtimg">
+                            <img width="35" id="previous" src="img/prevsong.svg" alt="">
+                            <img width="35" id="play" src="img/play.svg" alt="">
+                            <img width="35" id="next" src="img/nextsong.svg" alt="">
                         </div>
                         <div class="timevol">
-                            <div class="songtime"></div>
-                            <div class="volume">
-                                <img width="30" src="img/volume.svg" alt="volimg">
-                                <div class="range">
-                                    <input type="range" name="volume" id="vol">
-                                </div>
+
+                       
+                        <div class="songtime">
+
+                        </div>
+                        <div class="volume">
+                            <img width="25" src="img/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="js/script.js"></script>
-       
-
-<div class="signup-modal" id="signupModal">
-    <div class="modal-content">
-        <h2>Sign Up for Spotify</h2>
-        <form id="signupForm">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" required>
-            </div>
-            <button type="submit" class="submit-btn">Sign Up</button>
-            <button type="button" class="cancel-btn" onclick="closeModal()">Cancel</button>
-        </form>
     </div>
-</div>
-
-<script>
-// Get modal and button elements
-const modal = document.getElementById('signupModal');
-const signupBtn = document.querySelector('.signupbtn');
-
-// Show modal when signup button is clicked
-signupBtn.addEventListener('click', () => {
-    modal.style.display = 'block';
-});
-
-// Close modal function
-function closeModal() {
-    modal.style.display = 'none';
-}
-
-// Handle form submission
-document.getElementById('signupForm').addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    // Get form values
-    const userData = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        signupDate: new Date().toISOString()
-    };
-    
-    // Save to localStorage
-    localStorage.setItem('spotifyUserData', JSON.stringify(userData));
-    
-    // Show success message
-    alert('Sign up successful!');
-    
-    // Clear form
-    e.target.reset();
-    
-    // Close modal
-    closeModal();
-});
-
-// Close modal if clicked outside
-window.addEventListener('click', (e) => {
-    if (e.target === modal) {
-        closeModal();
-    }
-});
-</script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
