@@ -18,7 +18,7 @@ let currentSong = new Audio();
 let songs;
 let currFolder;
 
-async function get(folder) {
+async function getSongs(folder) {
     currFolder = folder;
     let a = await fetch(`/${folder}/`)
     let response = await a.text();
